@@ -1,12 +1,12 @@
-# LAB 5: Game of Set
+## Game of Set
 
 ## DESCRIPTION:
 Implements the Game of Set in Javascript which runs on a single-paged site.
 
 ## SETUP:
-1.) Change directory to the Lab5 directory in the terminal
+1.) Change directory to the "Game of Set" directory in the terminal
 
-2.) Run "bundler install" in the Lab5 directory
+2.) Run "bundler install" in the "Game of Set" directory
 
 3.) Run "bundle exec middleman server" (to exit: 'ctrl+c')
 
