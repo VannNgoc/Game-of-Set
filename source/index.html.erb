@@ -1,0 +1,35 @@
+
+<!--Author: Vannaroth Ngoc-->
+<table class = "cardTable" >
+  <%3.times do |i|%>
+    <%if i == 0%>
+      <tr>
+      <td>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "1" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "2" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "3" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "4" onclick = "eventListener($(this).attr('id'))"/>
+      </td>
+      </tr>
+    <%elsif i == 1%>
+      <tr>
+      <td>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "5" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "6" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "7" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "8" onclick = "eventListener($(this).attr('id'))"/>
+      </td>
+      </tr>
+    <%elsif i == 2%>
+      <tr>
+      <td>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "9" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "10" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "11" onclick = "eventListener($(this).attr('id'))"/>
+      <input type="image" src="images/mock_card.jpg" class = "cards" id = "12" onclick = "eventListener($(this).attr('id'))"/>
+      </td>
+      </tr>
+    <%end%>
+  <%end%>
+</table>
+
